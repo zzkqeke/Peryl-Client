@@ -1,8 +1,8 @@
 {
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.7",
-  "package": "rosegold.gumtuneclient.mixin",
-  "refmap": "mixins.gumtuneclient.refmap.json",
+  "package": "samsidere.perylclient.mixin",
+  "refmap": "mixins.peryl.refmap.json",
   "verbose": true,
   "client": [
     "MixinBlockRendererDispatcher",
