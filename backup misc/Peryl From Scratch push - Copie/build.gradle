@@ -1,0 +1,120 @@
+buildscript {
+    repositories {
+        jcenter() // Un dépôt commun pour les dépendances
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven" // Dépôt officiel de Forge
+        }
+        maven {
+            // Un autre dépôt parfois nécessaire pour certaines dépendances
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+    }
+    dependencies {
+        // C'est la version de ForgeGradle. Pour 1.8.9, c'est généralement 1.2-SNAPSHOT
+        // ou 2.0-SNAPSHOT pour les builds plus récents.
+        // Si vous avez des problèmes, essayez de changer à 1.2-SNAPSHOT si c'est 2.0-SNAPSHOT, et vice-versa.
+        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+    }
+}
+
+// Applique le plugin Forge, qui lui-même applique le plugin Java
+apply plugin: 'forge'
+
+// ====================================================================================
+// INFORMATIONS DE BASE DU MOD
+// Assurez-vous que ces valeurs correspondent à celles de votre classe PerylClient.java
+// ====================================================================================
+version = "1.0" // La version de votre mod
+group = "com.samsidere.PerylClient" // Le package racine de votre mod (correspond à MODID souvent)
+archivesBaseName = "PerylClientMod" // Nom du fichier JAR final de votre mod
+
+// ====================================================================================
+// CONFIGURATION DE LA COMPATIBILITÉ JAVA
+// Ceci est CRUCIAL pour éviter les erreurs "diamond operator" et "lambda expressions"
+// Java 8 est requis pour Minecraft 1.8.9 et Forge.
+// ====================================================================================
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+// ====================================================================================
+// CONFIGURATION DE MINECRAFT ET FORGE
+// Cette section est absolument nécessaire pour que le plugin Forge fonctionne.
+// La version DOIT correspondre EXACTEMENT à la version de Forge que vous utilisez.
+// ====================================================================================
+minecraft {
+    // >>> TRÈS IMPORTANT : Remplacez par la version exacte de Forge 1.8.9 que vous utilisez. <<<
+    // La version 11.15.1.2318 est la version recommandée/stable pour 1.8.9.
+    version = "1.8.9-11.15.1.2318"
+
+    // Dossier d'exécution pour l'environnement de développement.
+    // Mettez "idea" si vous utilisez IntelliJ IDEA.
+    // Mettez "eclipse" si vous utilisez Eclipse.
+    runDir = "idea"
+
+    // Configuration des mappings MCP (Minecraft Coder Pack) pour le décompiling.
+    // C'est généralement une bonne pratique de laisser les mappings par défaut du MDK.
+    // mappings = "snapshot_20150916" // Exemple de mappings si besoin de spécifier
+}
+
+// ====================================================================================
+// DÉPENDANCES DE VOTRE MOD
+// Ajoutez ici toutes les librairies externes ou autres mods dont votre mod dépend.
+// ====================================================================================
+dependencies {
+    // Si votre mod utilise Scala (ce qui est courant avec Forge 1.8.9), décommentez ces lignes
+    // compile "org.scala-lang:scala-library:2.11.1" // Version de Scala à vérifier si vous l'utilisez
+    // compile "org.scala-lang:scala-compiler:2.11.1" // Version de Scala à vérifier si vous l'utilisez
+
+    // Les dépendances de Forge et Minecraft sont gérées automatiquement par le plugin 'forge'.
+    // Vous n'avez pas besoin d'ajouter de lignes comme "compile 'net.minecraft:minecraft:1.8.9'" ici.
+}
+
+// ====================================================================================
+// TÂCHES DE BUILD SPÉCIFIQUES (optionnel, mais courant)
+// ====================================================================================
+
+// Tâche pour le JAR final (fichier mod .jar)
+jar {
+    manifest {
+        attributes 'FMLCorePluginContainsFMLMod': 'true',
+                'Built-By': System.getProperty('user.name'),
+                'Implementation-Version': project.version,
+                'Specification-Title': project.name,
+                'Specification-Vendor': 'Peryl Client Team', // Votre équipe ou nom
+                'Specification-Version': '1.0' // Version de la spécification de votre mod
+    }
+    // Inclure toutes les dépendances dans le JAR final (souvent pour les mods clients)
+    from {
+        configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+// Tâche pour traiter les ressources (mcmod.info, assets, etc.)
+processResources {
+    // C'est ici que Gradle remplace les variables dans mcmod.info
+    // Assurez-vous que les placeholders dans mcmod.info correspondent à ce que vous définissez ici.
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+
+        // Remplace les placeholders comme ${version} dans mcmod.info
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+
+    // Assurez-vous que les assets sont copiés au bon endroit pour Minecraft
+    rename '(.+_at.json)', '$1'
+}
+
+// Tâches de test (si vous avez des tests JUnit par exemple)
+test {
+    // Options pour les tests
+    // useJUnitPlatform() // Si vous utilisez JUnit 5
+}
