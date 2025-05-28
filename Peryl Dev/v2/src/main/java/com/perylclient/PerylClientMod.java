@@ -1,5 +1,7 @@
 package com.perylclient; // 
 
+import perylclient.utils.misc.Vec3;
+
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
@@ -97,7 +99,7 @@ public class PerylClientMod { //  class name
             BlockPos playerPos = player.blockPosition();
             BlockPos blockToMine = playerPos.below();
 
-            if (lastMinedPos == null || !lastMinedPos.equals(blockToMine)) {
+           /* if (lastMinedPos == null || !lastMinedPos.equals(blockToMine)) {
                 if (canMine(player, level, blockToMine)) {
 
                     // -------- ADD DESTROY FUNC --------
@@ -112,7 +114,7 @@ public class PerylClientMod { //  class name
                         LOGGER.warn("Peryl Client: Failed to mine sand at {} or it wasn't instant.", blockToMine); //  log
                     }
                 }
-            }
+            }*/
 
             if (lastMinedPos != null && lastMinedPos.equals(playerPos)) {
                 BlockPos currentStandingPos = player.blockPosition();
@@ -121,7 +123,11 @@ public class PerylClientMod { //  class name
                     BlockPos sandBelowNextPotentialPos = nextPotentialStandPos.below();
 
                     if (isSafeToStandAndMineFrom(player, level, nextPotentialStandPos, sandBelowNextPotentialPos)) {
-                        player.setPos(nextPotentialStandPos.getX() + 0.5, nextPotentialStandPos.getY(), nextPotentialStandPos.getZ() + 0.5);
+                        
+                        Vec3 target = new Vec3(nextX + 0.5, y, nextZ + 0.5);
+                        Vec3 direction = target.subtract(player.getPositionVec()).normalize().scale(0.2);
+                        player.setDeltaMovement(direction);
+
                         LOGGER.debug("Peryl Client: Moved to {}", nextPotentialStandPos); //  log
                         lastMinedPos = null;
                         return;
@@ -138,7 +144,9 @@ public class PerylClientMod { //  class name
 
                     if(isSafeToStandAndMineFrom(player, level, nextPotentialStandPos, sandBelowThat)){
 
-                                            // -------- ADD SIMPLE PATHFIND FUNCTION --------
+                        Vec3 target = new Vec3(nextX + 0.5, y, nextZ + 0.5);
+                        Vec3 direction = target.subtract(player.getPositionVec()).normalize().scale(0.2);
+                        player.setDeltaMovement(direction);
 
                         LOGGER.debug("Peryl Client: Initial move to {}", nextPotentialStandPos); //  log
                         lastMinedPos = null;
