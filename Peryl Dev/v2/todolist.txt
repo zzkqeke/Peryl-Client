@@ -1,0 +1,4 @@
+- make the break function
+- make the rotate cam function
+- test the pathfinding/code rn:
+  make new gradle build AND IntelliJ IDEA project
