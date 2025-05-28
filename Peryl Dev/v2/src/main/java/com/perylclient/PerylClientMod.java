@@ -99,8 +99,12 @@ public class PerylClientMod { //  class name
 
             if (lastMinedPos == null || !lastMinedPos.equals(blockToMine)) {
                 if (canMine(player, level, blockToMine)) {
-                    mc.gameMode.startDestroyBlock(blockToMine, Direction.DOWN);
-                    if (mc.gameMode.destroyBlock(blockToMine)) {
+
+                    // -------- ADD DESTROY FUNC --------
+
+                    if ( 
+                        //-------- ADD DESTROY FUNC --------/
+                    )) {
                         LOGGER.debug("Peryl Client: Mined sand at {}", blockToMine); //  log
                         lastMinedPos = blockToMine.immutable();
                         return;
@@ -133,7 +137,9 @@ public class PerylClientMod { //  class name
                     BlockPos sandBelowThat = nextPotentialStandPos.below();
 
                     if(isSafeToStandAndMineFrom(player, level, nextPotentialStandPos, sandBelowThat)){
-                        player.setPos(nextPotentialStandPos.getX() + 0.5, nextPotentialStandPos.getY(), nextPotentialStandPos.getZ() + 0.5);
+
+                                            // -------- ADD SIMPLE PATHFIND FUNCTION --------
+
                         LOGGER.debug("Peryl Client: Initial move to {}", nextPotentialStandPos); //  log
                         lastMinedPos = null;
                         return;
