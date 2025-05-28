@@ -1,0 +1,4 @@
+{
+  "key.autosandminer.toggle": "Toggle Auto Sand Miner",
+  "key.categories.autosandminer": "Auto Sand Miner"
+}
