@@ -1,0 +1,120 @@
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '6.0.+'
+}
+
+version = '1.0.0'
+group = 'com.perylclient'
+archivesBaseName = 'perylclient'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty('java.version')}, JVM: ${System.getProperty('java.vm.version')} (${System.getProperty('java.vendor')}), Arch: ${System.getProperty('os.arch')}"
+
+minecraft {
+    mappings channel: 'official', version: '1.20.4'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'perylclient'
+            mods {
+                perylclient {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'perylclient'
+            mods {
+                perylclient {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { 
+    srcDir 'src/generated/resources'
+    srcDir 'src/main/resources'
+}
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net/' }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.4-49.0.3'
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    var replaceProperties = [
+            minecraft_version: '1.20.4',
+            minecraft_version_range: '[1.20.4,1.21)',
+            forge_version: '49.0.3',
+            forge_version_range: '[49,)',
+            loader_version_range: '[49,)',
+            mod_id: 'perylclient',
+            mod_name: 'Peryl Client',
+            mod_version: '1.0.0',
+            mod_authors: 'PerylClient',
+            mod_description: 'A Minecraft mod that adds various client-side features.'
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title"     : "perylclient",
+            "Specification-Vendor"    : "perylclientsareus",
+            "Specification-Version"   : "1",
+            "Implementation-Title"    : project.name,
+            "Implementation-Version"  : project.jar.archiveVersion,
+            "Implementation-Vendor"   : "perylclientsareus",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.register('copyModJar', Copy) {
+    dependsOn jar
+    from jar.archiveFile
+    into file('run/mods')
+    rename { 'perylclient.jar' }
+}
+
+build.finalizedBy copyModJar

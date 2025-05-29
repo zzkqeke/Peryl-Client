@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="MIT"
+
+[[mods]]
+modId="perylclient"
+version="1.0.0"
+displayName="Peryl Client"
+authors="PerylClient"
+description='''
+A Minecraft mod that adds various client-side features.
+'''
+#logoFile="perylclient_logo.png" # Optional
+
+[[dependencies.perylclient]]
+    modId="forge"
+    mandatory=true
+    versionRange="[49,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.perylclient]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.4,1.21)"
+    ordering="NONE"
+    side="BOTH"

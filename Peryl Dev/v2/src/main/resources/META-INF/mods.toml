@@ -1,27 +1,27 @@
 modLoader="javafml"
-loaderVersion="[49,)" # For Forge 1.20.4, adjust for 1.21.4 when available
-license="All Rights Reserved" # Or your preferred license
+loaderVersion="${loader_version_range}"
+license="MIT"
 
 [[mods]]
-modId="perylclient" # 
-version="${file.jarVersion}"
-displayName="Peryl Client" # 
-authors="YourName" # Or "Peryl"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
 description='''
-js peryl 1
+${mod_description}
 '''
 #logoFile="perylclient_logo.png" # Optional
 
-[[dependencies.perylclient]] # 
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
-    versionRange="[49,)" # Match loaderVersion
+    versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.perylclient]] # 
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.4]" # Match Minecraft version, adjust for 1.21.4
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
