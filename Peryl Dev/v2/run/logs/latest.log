@@ -1,51 +1,51 @@
-[29mai2025 17:43:41.617] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 12, --assetsDir, C:\Users\Sami\.gradle\caches\forge_gradle\assets, --gameDir, .]
-[29mai2025 17:43:41.627] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.15+6
-[29mai2025 17:43:41.631] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[29mai2025 17:43:42.622] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[29mai2025 17:43:43.138] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[29mai2025 17:43:43.393] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[29mai2025 17:43:43.853] [EarlyDisplay/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 536.23, NVIDIA Corporation
-[29mai2025 17:43:43.955] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=CLIENT
-[29mai2025 17:43:45.757] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[29mai2025 17:43:49.074] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Sami\.gradle\caches\forge_gradle\assets, --assetIndex, 12]
-[29mai2025 17:43:51.979] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties]
-[29mai2025 17:43:52.932] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties]
-[29mai2025 17:44:01.444] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 198 Datafixer optimizations took 611 milliseconds
-[29mai2025 17:44:05.112] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sami/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.3_mapped_official_1.20.4/forge-1.20.4-49.0.3_mapped_official_1.20.4-recomp.jar%2316!/assets/.mcassetsroot' uses unexpected schema
-[29mai2025 17:44:05.114] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sami/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.3_mapped_official_1.20.4/forge-1.20.4-49.0.3_mapped_official_1.20.4-recomp.jar%2316!/data/.mcassetsroot' uses unexpected schema
-[29mai2025 17:44:05.195] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[29mai2025 17:44:05.232] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[29mai2025 17:44:05.551] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
-[29mai2025 17:44:06.599] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.3, for MC 1.20.4 with MCP 20231207.112700
-[29mai2025 17:44:06.599] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.3 Initialized
-[29mai2025 17:44:09.090] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [perylclient]
-[29mai2025 17:44:09.099] [Render thread/INFO] [com.perylclient.PerylClientMod/]: Registered keybinds for Peryl Client
-[29mai2025 17:44:09.351] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[29mai2025 17:44:09.616] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.04.hex, loading
-[29mai2025 17:44:11.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29mai2025 17:44:11.671] [Worker-Main-4/INFO] [com.perylclient.PerylClientMod/]: Peryl Client Setup
-[29mai2025 17:44:12.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 49.0.3 Target: 49.2.0
-[29mai2025 17:44:17.583] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[29mai2025 17:44:17.583] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[29mai2025 17:44:17.584] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.generic.wind_burst
-[29mai2025 17:44:17.726] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Casque (Razer Nari Ultimate - Game)
-[29mai2025 17:44:17.726] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[29mai2025 17:44:17.908] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[29mai2025 17:44:17.926] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[29mai2025 17:44:17.927] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[29mai2025 17:44:17.929] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[29mai2025 17:44:17.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[29mai2025 17:44:17.937] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[29mai2025 17:44:17.938] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[29mai2025 17:44:17.938] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[29mai2025 17:44:17.939] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[29mai2025 17:44:18.447] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[29mai2025 17:44:18.706] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[29mai2025 17:44:18.708] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[29mai2025 17:44:18.709] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[29mai2025 17:44:18.709] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[29mai2025 17:44:18.975] [IO-Worker-2/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[29mai2025 17:44:18.977] [IO-Worker-2/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+[29mai2025 19:16:29.926] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 12, --assetsDir, C:\Users\Sami\.gradle\caches\forge_gradle\assets, --gameDir, .]
+[29mai2025 19:16:29.935] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.15+6
+[29mai2025 19:16:29.939] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[29mai2025 19:16:30.712] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[29mai2025 19:16:31.589] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[29mai2025 19:16:31.793] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[29mai2025 19:16:32.285] [EarlyDisplay/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 536.23, NVIDIA Corporation
+[29mai2025 19:16:32.342] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=CLIENT
+[29mai2025 19:16:34.034] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29mai2025 19:16:36.825] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Sami\.gradle\caches\forge_gradle\assets, --assetIndex, 12]
+[29mai2025 19:16:38.704] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.properties]
+[29mai2025 19:16:39.532] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties]
+[29mai2025 19:16:45.055] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 198 Datafixer optimizations took 458 milliseconds
+[29mai2025 19:16:48.705] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sami/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.3_mapped_official_1.20.4/forge-1.20.4-49.0.3_mapped_official_1.20.4-recomp.jar%2316!/assets/.mcassetsroot' uses unexpected schema
+[29mai2025 19:16:48.706] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Sami/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.0.3_mapped_official_1.20.4/forge-1.20.4-49.0.3_mapped_official_1.20.4-recomp.jar%2316!/data/.mcassetsroot' uses unexpected schema
+[29mai2025 19:16:48.764] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[29mai2025 19:16:48.800] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[29mai2025 19:16:49.037] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.2+13
+[29mai2025 19:16:49.641] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.0.3, for MC 1.20.4 with MCP 20231207.112700
+[29mai2025 19:16:49.642] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.0.3 Initialized
+[29mai2025 19:16:51.648] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [perylclient]
+[29mai2025 19:16:51.659] [Render thread/INFO] [com.perylclient.PerylClientMod/]: Registered keybinds for Peryl Client
+[29mai2025 19:16:51.878] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[29mai2025 19:16:52.050] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.04.hex, loading
+[29mai2025 19:16:52.610] [Worker-Main-3/INFO] [com.perylclient.PerylClientMod/]: Peryl Client Setup
+[29mai2025 19:16:52.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29mai2025 19:16:53.300] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 49.0.3 Target: 49.2.0
+[29mai2025 19:16:57.259] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[29mai2025 19:16:57.259] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[29mai2025 19:16:57.260] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.generic.wind_burst
+[29mai2025 19:16:57.372] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (Realtek(R) Audio)
+[29mai2025 19:16:57.373] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[29mai2025 19:16:57.543] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[29mai2025 19:16:57.565] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[29mai2025 19:16:57.566] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[29mai2025 19:16:57.567] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[29mai2025 19:16:57.570] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[29mai2025 19:16:57.577] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[29mai2025 19:16:57.577] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[29mai2025 19:16:57.578] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[29mai2025 19:16:57.579] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[29mai2025 19:16:58.069] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[29mai2025 19:16:58.215] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[29mai2025 19:16:58.217] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[29mai2025 19:16:58.219] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[29mai2025 19:16:58.219] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[29mai2025 19:16:58.457] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[29mai2025 19:16:58.458] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
 com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
 	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:411) ~[forge-1.20.4-49.0.3_mapped_official_1.20.4-recomp.jar%2316!/:?]
 	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:207) ~[forge-1.20.4-49.0.3_mapped_official_1.20.4-recomp.jar%2316!/:?]
@@ -54,40 +54,35 @@ com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[29mai2025 17:45:01.988] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[29mai2025 17:45:02.344] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
-[29mai2025 17:45:03.175] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.4
-[29mai2025 17:45:03.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29mai2025 17:45:03.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29mai2025 17:45:06.938] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:06.938] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:06.938] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:06.958] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:06.958] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:06.958] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:06.958] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[29mai2025 17:45:07.289] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[29mai2025 17:45:07.795] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[29mai2025 17:45:08.198] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[29mai2025 17:45:08.198] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4410 ms
-[29mai2025 17:45:08.629] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[29mai2025 17:45:08.629] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[29mai2025 17:45:10.403] [Render thread/INFO] [net.minecraftforge.common.ForgeHooks/]: Connected to a modded server.
-[29mai2025 17:45:10.576] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:4c842874] logged in with entity id 13 at (-1.5, 0.0, 5.5)
-[29mai2025 17:45:10.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[29mai2025 17:45:11.727] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[29mai2025 17:45:12.393] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[29mai2025 17:45:12.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[29mai2025 17:45:13.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[29mai2025 17:45:13.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[29mai2025 17:45:13.399] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2249ms or 44 ticks behind
-[29mai2025 17:45:17.690] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'boolean net.minecraft.client.KeyMapping.m_90859_()'
+[29mai2025 19:18:26.592] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[29mai2025 19:18:26.893] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1271 advancements
+[29mai2025 19:18:27.597] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.4
+[29mai2025 19:18:27.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29mai2025 19:18:28.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29mai2025 19:18:31.344] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.344] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.344] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.345] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:31.657] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29mai2025 19:18:32.158] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[29mai2025 19:18:32.612] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29mai2025 19:18:32.615] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4472 ms
+[29mai2025 19:18:32.921] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[29mai2025 19:18:32.921] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[29mai2025 19:18:34.206] [Render thread/INFO] [net.minecraftforge.common.ForgeHooks/]: Connected to a modded server.
+[29mai2025 19:18:34.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:4a6ba688] logged in with entity id 39 at (-1.5, 0.0, 5.5)
+[29mai2025 19:18:34.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[29mai2025 19:18:34.784] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[29mai2025 19:18:37.018] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
 	Index: 1
 	Listeners:
 		0: NORMAL
-		1: ASM: com.perylclient.PerylClientMod@38a12f1f onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
-java.lang.NoSuchMethodError: 'boolean net.minecraft.client.KeyMapping.m_90859_()'
-	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:77)
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
 	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
 	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
 	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
@@ -125,9 +120,9 @@ java.lang.NoSuchMethodError: 'boolean net.minecraft.client.KeyMapping.m_90859_()
 	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
 	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
 
-[29mai2025 17:45:17.693] [Render thread/ERROR] [net.minecraft.client.Minecraft/FATAL]: Unreported exception thrown!
-java.lang.NoSuchMethodError: 'boolean net.minecraft.client.KeyMapping.m_90859_()'
-	at com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:77) ~[perylclient.jar!/:1.0.0]
+[29mai2025 19:18:37.021] [Render thread/ERROR] [net.minecraft.client.Minecraft/FATAL]: Unreported exception thrown!
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84) ~[perylclient.jar!/:1.0.0]
 	at com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic) ~[perylclient.jar!/:1.0.0]
 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58) ~[eventbus-6.2.0.jar:?]
 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:300) ~[eventbus-6.2.0.jar:?]
@@ -164,27 +159,24 @@ java.lang.NoSuchMethodError: 'boolean net.minecraft.client.KeyMapping.m_90859_()
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48) ~[bootstrap-2.0.0.jar!/:?]
 	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18) ~[bootstrap-2.0.0.jar!/:?]
-[29mai2025 17:45:17.957] [Render thread/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties]
-[29mai2025 17:45:18.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[29mai2025 17:45:18.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[29mai2025 17:45:18.412] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Server closed
-[29mai2025 17:45:18.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[29mai2025 17:45:18.470] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[29mai2025 17:45:18.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[29mai2025 17:45:19.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[29mai2025 17:45:20.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[29mai2025 17:45:20.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[29mai2025 17:45:20.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[29mai2025 17:45:20.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[29mai2025 17:45:20.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[29mai2025 17:45:20.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[29mai2025 17:45:21.180] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'boolean net.minecraft.client.KeyMapping.m_90859_()'
+[29mai2025 19:18:37.243] [Render thread/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:///C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties, jar:file:/C:/Users/Sami/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/oshi.architecture.properties]
+[29mai2025 19:18:37.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29mai2025 19:18:37.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29mai2025 19:18:37.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29mai2025 19:18:38.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[29mai2025 19:18:39.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[29mai2025 19:18:39.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[29mai2025 19:18:39.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[29mai2025 19:18:39.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29mai2025 19:18:39.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29mai2025 19:18:39.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29mai2025 19:18:40.576] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
 	Index: 1
 	Listeners:
 		0: NORMAL
-		1: ASM: com.perylclient.PerylClientMod@38a12f1f onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
-java.lang.NoSuchMethodError: 'boolean net.minecraft.client.KeyMapping.m_90859_()'
-	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:77)
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
 	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
 	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
 	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
@@ -226,5 +218,581 @@ java.lang.NoSuchMethodError: 'boolean net.minecraft.client.KeyMapping.m_90859_()
 	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
 	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
 
-[29mai2025 17:45:21.400] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 229aec42-f0dc-46c0-b658-59af83e1b2f9
-[29mai2025 17:45:21.419] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID cb862909-344d-4ca8-a5e0-334c303fa681
+[29mai2025 19:18:40.578] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.580] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.581] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.582] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.583] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.585] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.586] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.588] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.594] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.595] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.596] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.597] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: ASM: com.perylclient.PerylClientMod@5c1a7484 onKeyInput(Lnet/minecraftforge/client/event/InputEvent$Key;)V
+java.lang.NoSuchMethodError: 'com.mojang.blaze3d.platform.InputConstants$Key com.mojang.blaze3d.platform.InputConstants.m_84827_(int, int)'
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.PerylClientMod.onKeyInput(PerylClientMod.java:84)
+	at TRANSFORMER/perylclient@1.0.0/com.perylclient.__PerylClientMod_onKeyInput_Key.invoke(.dynamic)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:58)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:300)
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:281)
+	at TRANSFORMER/forge@49.0.3/net.minecraftforge.client.ForgeHooksClient.onKeyInput(ForgeHooksClient.java:599)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.keyPress(KeyboardHandler.java:485)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$8(KeyboardHandler.java:516)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.KeyboardHandler.lambda$setup$9(KeyboardHandler.java:515)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFWKeyCallbackI.callback(GLFWKeyCallbackI.java:44)
+	at SECURE-BOOTSTRAP/org.lwjgl@3.3.2+13/org.lwjgl.system.JNI.invokeV(Native Method)
+	at SECURE-BOOTSTRAP/org.lwjgl.glfw@3.3.2+13/org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:175)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:184)
+	at TRANSFORMER/minecraft@1.20.4/com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:278)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.runTick(Minecraft.java:1274)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.updateScreenAndTick(Minecraft.java:2282)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.disconnect(Minecraft.java:2215)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySave(Minecraft.java:1413)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:927)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.Minecraft.run(Minecraft.java:822)
+	at TRANSFORMER/minecraft@1.20.4/net.minecraft.client.main.Main.main(Main.java:234)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:90)
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.4-49.0.3/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.run(Launcher.java:114)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.Launcher.main(Launcher.java:73)
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.1.2/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17)
+	at net.minecraftforge.bootstrap@2.0.0/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:48)
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:18)
+
+[29mai2025 19:18:40.818] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 5b0d0a1e-2c9b-46c8-9b11-fde7615060c2
+[29mai2025 19:18:40.841] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d1d18414-7646-487a-ba9d-89a587dbdad6

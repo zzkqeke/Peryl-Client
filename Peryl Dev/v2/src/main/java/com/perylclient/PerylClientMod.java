@@ -23,7 +23,7 @@ import net.minecraft.client.KeyMapping;
 import org.slf4j.Logger;
 import net.minecraftforge.client.event.InputEvent; // Ensure this import is present
 import net.minecraft.util.Mth;
-
+import com.mojang.blaze3d.platform.InputConstants;
 
 // Changed class name and MODID
 @Mod(PerylClientMod.MODID) //  class name reference
@@ -80,7 +80,9 @@ public class PerylClientMod { //  class name
     @SubscribeEvent
     public void onKeyInput(InputEvent.Key event) {
         try {
-            if (toggleMiningKey != null && toggleMiningKey.consumeClick()) {
+            if (toggleMiningKey != null
+                    && toggleMiningKey.isActiveAndMatches(InputConstants.getKey(event.getKey(), event.getScanCode()))
+                    && event.getAction() == GLFW.GLFW_PRESS) {
                 Minecraft mc = Minecraft.getInstance();
                 if (mc != null && mc.player != null) {
                     isMiningActive = !isMiningActive;
